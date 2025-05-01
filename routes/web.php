@@ -10,3 +10,4 @@ Route::post('/tasks/{task}/incomplete', [TaskController::class, 'incomplete']); 
 Route::post('/tasks/{task}/delete', [TaskController::class, 'delete']); // Delete task
 Route::delete('/tasks/clear', [TaskController::class, 'clearTasks'])->name('tasks.clear'); // Clear task list
 Route::delete('/tasks/clearcompleted', [TaskController::class, 'clearCompleted'])->name('tasks.clearcompleted'); // Clear completed list
+// Test comment
